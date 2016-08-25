@@ -1,0 +1,82 @@
+html{
+	color: #0E0E0E;
+}
+h1,h2,h3,h4{
+	font-family: sans-serif;
+}
+a{
+	color: #414175;
+}
+p{
+	line-height: 1.4em;
+}
+h2{
+	color: #616161;
+}
+h3{
+	color: #B71A1A;
+}
+
+body{
+	margin: 0;
+}
+main{
+	max-width: 700px;
+	margin: 0 auto;
+	width: 90%;
+}
+header{
+	background-color: #F3F3F3;
+}
+header h1{
+	padding: 20px 0;
+	color: #3377B1;
+}
+header .course-title{
+	font-size: 18px;
+	color: #FFFFFF;
+	margin-left: 5px;
+	font-family: sans-serif;
+	text-decoration: none;
+	transition: color .25s linear;
+}
+header .course-title:hover{
+	color: #CCCCCC;
+}
+
+.header-inner{
+	max-width: 700px;
+	margin: 0 auto;
+	width: 90%;
+}
+.header-inner-top{
+	padding: 10px 0;
+	background-color: #BF5C5C;
+
+}
+footer{
+	width: 100%;
+	height: 5px;
+	background-color: #414175;
+	margin-top: 50px;
+}
+
+.syllabus-section{
+	padding: 5px 0;
+	counter-reset: weeks;
+}
+
+
+.schedule-item{
+    border-top: 1px solid #c5c5c5;
+    padding-top: 5px;
+}
+
+/*.schedule-item h3:after{
+	content: counter(weeks);
+	counter-increment: weeks;
+}*/
+
+.schedule-item:first-of-type{
+	border-top: none;
+}
