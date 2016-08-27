@@ -6,15 +6,31 @@ h1,h2,h3,h4{
 }
 a{
 	color: #414175;
+	color: #B71A1A;
+	text-decoration: none;
 }
-p{
+a:hover{
+	text-decoration: underline;
+}
+p,li{
 	line-height: 1.4em;
+	font-size: 1.075em;
 }
+@media (max-width: 768px) {
+	p,li{
+		font-size: .975em;
+		line-height: 1.3em;
+	}
+}
+
 h2{
 	color: #616161;
 }
 h3{
 	color: #B71A1A;
+}
+li{
+	margin-bottom: 2px;
 }
 
 body{
